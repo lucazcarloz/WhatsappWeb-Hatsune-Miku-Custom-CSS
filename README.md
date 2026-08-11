@@ -1,3 +1,5 @@
+![Badge Conclúido](https://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=green&style=flat-square)
+
 # WhatsappWeb-Hatsune-Miku-Custom-CSS
 Tema personalizado em CSS para whatsapp web baseado na Hatsune Miku.
 
