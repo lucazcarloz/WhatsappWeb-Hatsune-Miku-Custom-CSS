@@ -1,0 +1,297 @@
+/* ==UserStyle==
+@name         Hatsune Miku-Room
+@namespace    github.com/lucazcarloz
+@version      1.0.0
+==/UserStyle== */
+
+ @-moz-document domain("whatsapp.com") {
+	html,
+	body {
+		border-radius: 0 !important;
+	}
+
+	* {
+		border-radius: 8px !important;
+		border: none !important;
+		font-family: 'Ubuntu', sans-serif !important;
+
+		/* Accent */
+		--WDS-accent: #3bbfb3 !important;
+		--WDS-accent-deemphasized: #082428 !important;
+		--WDS-accent-emphasized: #ffffff !important;
+		--WDS-green-750: #3bbfb3 !important;
+
+		/* Outgoing bubbles */
+		--outgoing-background: #1e897f !important;
+		--outgoing-background-deeper: #1f697d !important;
+		--outgoing-background-highlight: rgba(30, 137, 127, .7) !important;
+		--WDS-systems-bubble-surface-outgoing: #1e897f !important;
+
+		/* Buttons */
+		--button-primary-background: #3bbfb3 !important;
+		--button-primary-background-hover: rgba(59, 191, 179, .75) !important;
+		--button-secondary: #3bbfb3 !important;
+		--button-secondary-hover: #c7e8ed !important;
+		--button-round-background: #3bbfb3 !important;
+		--button-focus-outline: #3bbfb3 !important;
+		--button-bubble: rgba(59, 191, 179, .7) !important;
+		--button-approve: #1f7d78 !important;
+
+		/* Switches, checkboxes, inputs */
+		--switch-track-checked-color: #3bbfb3 !important;
+		--checkbox-background: #3bbfb3 !important;
+		--input-border-active: #3bbfb3 !important;
+		--input-button-more: #3bbfb3 !important;
+		--input-empty-value-placeholder: #3bbfb3 !important;
+
+		/* Icons */
+		--icon-primary: #3bbfb3 !important;
+		--icon-high-emphasis: #3bbfb3 !important;
+		--icon-bright-highlight: #3bbfb3 !important;
+		--icon-search-back: #3bbfb3 !important;
+		--round-icon-background: #3bbfb3 !important;
+		--icon-ack: #8fc3d4 !important;
+
+		/* Text */
+		--teal: #3bbfb3 !important;
+		--teal-lighter: #3bbfb3 !important;
+		--teal-pale: #56a3b8 !important;
+		--highlight: #3bbfb3 !important;
+		--typing: #3bbfb3 !important;
+		--text-teal: #3bbfb3 !important;
+		--text-action: #3bbfb3 !important;
+		--text-success: #3bbfb3 !important;
+		--sender-superpower-title: #3bbfb3 !important;
+
+		/* Links */
+		--link: #9dd2db !important;
+		--link-alt: #9dd2db !important;
+		--WDS-content-external-link: #9dd2db !important;
+		--WDS-content-external-link-RGB: #9dd2db !important;
+
+		/* Notifications and badges */
+		--unread-marker-background: #3bbfb3 !important;
+		--unread-marker-text: #FFFFFF !important;
+		--unread-timestamp: #3bbfb3 !important;
+		--badge-pending: #3bbfb3 !important;
+		--active-tab-marker: #3bbfb3 !important;
+		--status-ring-unread: #3bbfb3 !important;
+
+		/* Progress and spinner */
+		--progress-primary: #3bbfb3 !important;
+		--spinner-highlight: #3bbfb3 !important;
+		--splashscreen-progress-primary: #3bbfb3 !important;
+
+		/* Panels and layout */
+		--app-background-stripe: #3bbfb3 !important;
+		--panel-background-colored: #3bbfb3 !important;
+		--panel-background-colored-deeper: #1f6b7d !important;
+
+		/* Filters and tabs */
+		--filters-item-active-color: #3bbfb3 !important;
+		--filters-item-active-background: #e8e3f7 !important;
+
+		/* Chips */
+		--chip-button-background: #e8e3f7 !important;
+		--chip-button-foreground: #3bbfb3 !important;
+
+		/* Polls and audio */
+		--poll-bar-fill-receiver: #3bbfb3 !important;
+		--poll-bar-fill-sender: #3bbfb3 !important;
+		--poll-checkmark-receiver: #3bbfb3 !important;
+		--poll-checkmark-sender: #e8e3f7 !important;
+		--ptt-draft-thumb: #3bbfb3 !important;
+		--ptt-draft-button-send: #3bbfb3 !important;
+		--ptt-draft-button-send-hover: #56acb8 !important;
+		--ptt-ooc-mic-border-color: #3bbfb3 !important;
+		--audio-track-outgoing: #165560 !important;
+		--audio-progress-outgoing: #56acb8 !important;
+		--audio-progress-played-outgoing: #3bbfb3 !important;
+		--ptt-waveform-outgoing-played: #56acb8 !important;
+		--ptt-waveform-outgoing-unplayed: #165560 !important;
+		--ptt-thumb-outgoing-unplayed: #8fc3d4 !important;
+
+		/* Media editor */
+		--media-editor-thumb-border-active: #3bbfb3 !important;
+		--thumb-border-active: #3bbfb3 !important;
+		--thumb-border-viewer-active: #3bbfb3 !important;
+
+		/* Chat markers */
+		--chat-marker: #c7eled !important;
+		--chat-marker-background: #082628 !important;
+		--chat-marker-border: #082628 !important;
+
+		/* Butterbar */
+		--butterbar-green-nux-icon-background: #3bbfb3 !important;
+		--butterbar-notice-circle: #3bbfb3 !important;
+		--butterbar-notice-background: #082628 !important;
+		--butterbar-notice-icon: #e8e3f7 !important;
+		--butterbar-update-background: #082628 !important;
+		--butterbar-update-icon: #3bbfb3 !important;
+
+		/* WDS tokens */
+		--WDS-content-action-emphasized: #3bbfb3 !important;
+		--WDS-persistent-always-branded: #3bbfb3 !important;
+		--WDS-secondary-positive: #8fd2d4 !important;
+		--WDS-secondary-positive-deemphasized: #082628 !important;
+
+		/* Miscellaneous */
+		--communities-green: #3bbfb3 !important;
+		--electron-deprecation-app-expired-header: #3bbfb3 !important;
+		--qc-quantity-label-highlighted-background: #3bbfb3 !important;
+		--date-picker-header-background-color: #1f687d !important;
+		--date-picker-today-background-color: #1f687d !important;
+		--announcement-speaker-background: #3bbfb3 !important;
+		--xzwrfg: #3bbfb3 !important;
+		--xzw6rfg: #3bbfb3 !important;
+	}
+
+	/* Main Container */
+	#main,
+	body,
+	/* Chatlist Header */
+	header.x570efc,
+	/* Message List */
+	#side {
+		margin: 0 !important;
+		border-radius: 0 !important;
+	}
+
+	/* Sidebar container */
+	#app div._aigw {
+		flex: 0 25 25% !important;
+		min-width: 25% !important;
+		height: 85% !important;
+		border-radius: 0 !important;
+	}
+
+	/* Profile Picture */
+	._ak8h *,
+	.statusList div {
+		border-radius: 64px !important;
+	}
+
+	/* Profile Bar */
+	header.x1n2onr6:nth-child(1),
+	/* Input */
+	div.x1qrby5j,
+	/* Floating messages */
+	span.xdl72j9:nth-child(2),
+	/* Bottom message */
+	footer.x1n2onr6,
+	/* Select Messages */
+	.xfo81ep {
+		margin: 8px !important;
+		width: auto !important;
+	}
+
+	/* Select Messages */
+	.xfo81ep {
+		right: 0 !important;
+	}
+
+	/* Attach file / Image*/
+	div.x67bb7w {
+		margin: 8px;
+		height: calc(100% - 16px);
+		width: calc(100% - 16px);
+	}
+
+	/* In chat */
+	/* Baloon */
+	._amk7 {
+		display: none;
+	}
+
+	/* Reset - Remove forced row direction from previous rules */
+	header.x12xzxwr div,
+	header.x12xzxwr span {
+		flex-direction: unset !important;
+	}
+
+	/* Header */
+	header.x12xzxwr {
+		display: flex !important;
+		flex-direction: column !important;
+
+		justify-content: space-between !important;
+
+		padding: 0 !important;
+
+		position: fixed !important;
+		bottom: -8px !important;
+		left: -8px !important;
+
+		min-width: 25% !important;
+		height: 15% !important;
+	}
+
+	/* Main Container */
+	header.x12xzxwr > div:nth-child(1) {
+		max-width: 95% !important;
+		flex-direction: column !important;
+		padding: 4px !important;
+	}
+
+	/* Group Wrappers */
+	header.x12xzxwr > div:nth-child(1) > div {
+		align-items: center !important;
+	}
+
+	/* Icon Container */
+	header.x12xzxwr > div:nth-child(1) > div > div:nth-child(1) {
+		align-items: center !important;
+		text-align: center !important;
+	}
+
+	/* Icons */
+	header.x12xzxwr > div:nth-child(1) > div > div > div {
+		flex: 1 !important;
+	}
+
+	/* Group 1 and 2 (Icon Rows) */
+	header.x12xzxwr > div:nth-child(1) > div:nth-child(1) > div:nth-child(1),
+	header.x12xzxwr > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+		padding: 4px !important;
+	}
+
+	/* Bottom Bar Buttons */
+	header.x12xzxwr > div > div > div > div {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Button Reset  */
+	header.x12xzxwr [role = "button"],
+	header.x12xzxwr button {
+		margin: 0 !important;
+		flex-shrink: 0 !important;
+	}
+
+	/* Remove Empty Space on Bottom Bar */
+	hr.xh8yej3 {
+		display: none !important;
+	}
+
+	/* Other Menus (Status, Channels, ...) */
+	div._aigw:nth-child(1) {
+		flex: 0 25 25% !important;
+		min-width: 25% !important;
+		height: 85% !important;
+		left: -64px !important;
+		margin-right: -64px !important;
+	}
+
+	button > * > span > svg,
+	button > * > span {
+		color: white !important;
+	}
+
+	/* Chat Wallpaper BASE64*/
+	#main {
+		background-image: url("") !important;
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: cover !important;
+    }
+}
