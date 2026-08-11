@@ -9,4 +9,4 @@ Por ser muito pesado, os editores de CSS tem travado nele, então deixarei um co
 
 Link para download no Drive: https://drive.google.com/file/d/1i8PnZUxYjYT5evq1qwQUzDbJ4hP_rfw7/view?usp=sharing
 
-![Imagem de Prévia](.https://github.com/lucazcarloz/WhatsappWeb-Hatsune-Miku-Custom-CSS/blob/main/preview.jpg?raw=true)
+![Imagem de Prévia](https://github.com/lucazcarloz/WhatsappWeb-Hatsune-Miku-Custom-CSS/blob/main/preview.jpg?raw=true)
